@@ -1,0 +1,14 @@
+/* Notacion exadecimal */
+h1{
+    text-align: center;
+    color: #3AE0E8;
+}
+main p{
+    color: rgb(10, 200, 50);
+}
+h3{
+    color: rgb(41, 176, 249);
+}
+.rojo-transparente{
+    color: rgba(255, 42, 85, 0.5);
+}

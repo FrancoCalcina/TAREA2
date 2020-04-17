@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#div-1{
+    width: 150px;
+    height: 150px;
+    margin: 50px auto 0px auto;
+    border: 1px solid #999999;
+
+    /* sombras-valores--_color__ desplazaminto-en-eje-x__desplaza-en-y  */
+    box-shadow: #999999 3px 3px 10px 3px inset;
+    /* el cuarto elemento en el box-shadow es como un desenfoque */
+/*  el quinto del shadow es un resplandor */
+/* el ultimo es opcioal es como una sombra dentro del elemento */
+}
+
+
+#div-1:hover{
+    background-color: #dad2d2;
+    box-shadow: #999999 0px 0px 3px 1px;
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+#div-1{
+    width: 200px;
+    height: 100px;
+    background-color: #2980b9;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#div-2{
+    width: 200px;
+    height: 130px;
+    padding-top: 100px;
+    transition: all 2s ease 0s;
+}
+#div-2:hover{
+    transform: translate(0px, -30px);
+    background: linear-gradient(to bottom, #2980b9, #6dd5fa, #ffffff);
+}
+#img-1{
+    transition: all 1s ease 0s
+}
+#img-1:hover{
+    background-image: url(./saveshot2.png);
+}
+#img-2{
+    transition: all 1s ease 0s
+}
+#img-2:hover{
+    background-image: url(./corazon2.png);
+}

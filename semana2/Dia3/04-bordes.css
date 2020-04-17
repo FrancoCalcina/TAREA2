@@ -1,0 +1,90 @@
+*{
+    /* propiedades de reseteo. el primero ayuda con los margenes , 
+    y el otro ayuda con el relleno al desigualar con los bordes */
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 150px;
+    background-color: #fb6d6c;
+}
+main{
+    height: 1000;
+}
+#section-1{
+    width: 100px;
+    height: 100px;
+    background-color: mediumaquamarine;
+    
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: navy;
+     */
+     border: 5px solid navy;
+}
+#section-2{
+    width: 100px;
+    height: 100px;
+    background-color: mediumaquamarine;
+    
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: navy;
+     */
+     border-bottom: 5px solid red;
+}
+#section-3{
+    width: 100px;
+    height: 100px;
+    border: 3px solid tomato;
+    margin-top: 10px;
+    /* radio o curvatura de las esquinas del elemento */
+    /* cuando se coloca porcentaje la referencia es el ancho y alto del elemento */
+    border-radius: 50%;
+    /* a mas px en el radius se vuelve mas redondo */
+    /* cuando el largo y el ancho de la section e¡son iguales , 
+    si el radius tiene la mitad del valor sale un redondo */
+}
+#section-4{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid darkgreen;
+    border-top-right-radius: 10px;
+    border-top-left-radius:10px ;
+
+}
+
+/* borde del borde-outline */
+#section-5{
+    width: 100px;
+    height: 100px;
+    margin: 10px  auto 0px auto;
+    border: 3px solid saddlebrown;
+
+    outline: 10px solid turquoise;
+    outline-offset: 10px ;
+}
+
+#section-6{
+    margin-top: 100px;
+}
+#section-6 input{
+    /* poniendo border cero borramos el borde del input */
+    border: 0;
+    outline: 0;
+    border-bottom: 3px solid tomato;
+    /* para el borde inferior */
+    
+    color: tomato;
+    /* background-color: #fedbd4;para el fondo */
+    
+    padding: 12px;
+    /* solo un elemento indica para tods los lados
+      dos elementos indica el primero para arriba y abajoy el segundo izquierda y derecha */
+      /* cuando son 4 las instrucciones se muestren se sigue el orden del reloj */
+}
+#section-6 input ::placeholder{
+    color: crimson;
+
+}

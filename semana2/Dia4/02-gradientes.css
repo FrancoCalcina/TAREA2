@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#div-1{
+    width: 150px;
+    height: 150px;
+    margin: 50px auto 0px auto;
+    border: 1px solid #999999;
+    /* linear-gradient(posicion angulo colores[pueden sermas de un color */
+    /* background: -webkit-linear-gradient(top right, #fff, tomato) ; */
+  /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: radial-gradient( #0f2027, #203a43, #2c5364);
+
+}
+body{
+    height: 800px;
+    background: linear-gradient(to bottom, #4947cc, #5343ad);
+}

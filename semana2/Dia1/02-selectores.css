@@ -1,0 +1,48 @@
+/* Selector de nombre de etiqueta */
+span{
+    /* afecta a todos los span */
+    color: tomato;
+}
+
+/* selector multipleseparado por comas */
+li,p{
+    /* se lee los li Y los parrafos */
+    color: forestgreen;
+}
+
+
+/* selector de hijo de un elemento a cualquier nivel */
+aside a{
+    color: red;
+
+}
+
+
+/* selector de hijosen primer nivel */
+article > h4{
+    color: green;
+}
+
+
+/* selector de ID */
+#titulo-dmovil{
+    color: coral;
+}
+
+
+/* selector de clase */
+
+.lista-semanas{
+    color: darkblue;
+}
+
+
+/* selector que incluye las propiedades de un elemento */
+input[type="text"]{
+    border:1px solid red;
+}
+
+input[type="number"]{
+    border:1px solid blue;
+}
+
